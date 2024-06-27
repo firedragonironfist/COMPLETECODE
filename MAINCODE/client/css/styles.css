@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-color: black;
+  }
+  
+  #navbar {
+    width: 30vw;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%); 
+    background-color: #3C3F40; 
+    padding: 10px; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 31px 31px;
+    margin-bottom: 10%;
+  }
+  
+  #logo {
+    width: 100px;
+    height: auto;
+    margin: 0 auto; 
+    margin-bottom: 10px; 
+  }
+  
+  .line{
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    margin: 10px 0;
+  }
+  
+  .links a{
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .form-container {
+    width: 40vw;
+    margin: 8% auto;
+    background: #3C3F40;
+    border-radius: 5px;
+    position: relative;
+    padding: 20px; 
+    box-sizing: border-box; 
+    overflow: hidden; 
+  }
+  
+  
+  .form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h2{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #fff;
+  }
+  
+  .step {
+    display: none;
+  }
+  
+  .step.active {
+    display: block;
+  }
+  
+  button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #multiStepForm label {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 28px;
+    color: #fff;
+  }
+  
+  .footer {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    color: #fff;
+    background-color: #3C3F40;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    padding: 0 10px;
+  }
+  
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .impressum{
+    padding-right: 30px;
+  }
+  
+  .footer-copyright{
+    padding-top: 20px;
+  }
+  
+  .footer-text a img{
+    padding-top: 20px;
+    padding-right: 10px;
+    height:40px;
+    width:30px;
+  }
+  
